@@ -1,23 +1,29 @@
-# Duck HTML
+# Duck+ — Catálogo do ecossistema
 
-**Acceso directo al universo Duck.** Esta página funciona como una puerta de entrada inmersiva a las webs y repositorios públicos de Duck creados en el perfil.
+O **Duck HTML** é a porta de entrada do ecossistema Duck. A página inicial leva ao catálogo **Duck+**, uma interface em português inspirada em serviços de streaming para explorar páginas, aplicativos e repositórios públicos.
 
-## Entrada
+## Acesso
 
-Abre la página y pulsa **ENTRAR EN DUCK**. La ruta [`/tool/`](./tool/) muestra un botón de acceso directo para cada destino disponible.
+Abra a página inicial e selecione **ABRIR CATÁLOGO**. A rota [`/tool/`](./tool/) apresenta os títulos disponíveis, filtros por tipo e acessos diretos.
 
-## Destinos
+## Catálogo verificado
 
-| Proyecto | Tipo de enlace | Destino |
+| Título | Categoria | Destino |
 |---|---|---|
-| Heyduck | Web | [Abrir](https://belentani7.github.io/heyduck/) |
-| Duck Apps | Web | [Abrir](https://belentani7.github.io/duck-apps/) |
-| Duck Omega | Web | [Abrir](https://belentani7.github.io/Duck-Omega/) |
-| Duck Zion Apex | Repositorio | [Abrir](https://github.com/belentani7/duck-zion-apex-public) |
-| Duck Deck | Repositorio | [Abrir](https://github.com/belentani7/Duck-Deck) |
+| Heyduck | Web | [Abrir página](https://belentani7.github.io/heyduck/) |
+| Duck Apps | Hub de apps | [Abrir página](https://belentani7.github.io/duck-apps/) |
+| Duck Omega | Web | [Abrir página](https://belentani7.github.io/Duck-Omega/) |
+| Duck Station | App web | [Abrir app](https://belentani7.github.io/duck-apps/station/) |
+| Duck FL Studio | App web | [Abrir app](https://belentani7.github.io/duck-apps/fl/) |
+| Duck Zion Apex | Repositório | [Abrir repositório](https://github.com/belentani7/duck-zion-apex-public) |
+| Duck Deck | Repositório | [Abrir repositório](https://github.com/belentani7/Duck-Deck) |
 
-El portal prioriza las webs publicadas. Cuando un proyecto no cuenta con web pública, el botón lleva a su repositorio público.
+As páginas DuckBook, DickDock, Duck Zion Studio e Gema Lab não entram no catálogo porque suas rotas públicas retornaram 404 durante a verificação. O portal não exibe nomes nem links de repositórios privados.
 
-## Publicación
+## Interface
 
-El repositorio se publica con GitHub Pages desde la raíz de la rama `duck`.
+O catálogo foi implementado somente com HTML, CSS e JavaScript. Ele inclui filtros de categoria, layout responsivo, cartões de acesso, suporte a preferência de movimento reduzido e um fundo WebGL com shader leve, com alternativa visual quando WebGL não está disponível.
+
+## Publicação
+
+O projeto é publicado por GitHub Pages a partir da raiz da branch `duck`.
