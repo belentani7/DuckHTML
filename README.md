@@ -1,17 +1,23 @@
 # Duck HTML
 
-**Acceso directo a Duck.** Esta página es la puerta de entrada inmersiva a una herramienta HTML local, sin necesidad de pasar por un perfil.
+**Acceso directo al universo Duck.** Esta página funciona como una puerta de entrada inmersiva a las webs y repositorios públicos de Duck creados en el perfil.
 
 ## Entrada
 
-Abre la experiencia web y pulsa **ENTRAR EN DUCK**. La ruta [`/tool/`](./tool/) está incluida en el repositorio y ofrece un editor con previsualización inmediata.
+Abre la página y pulsa **ENTRAR EN DUCK**. La ruta [`/tool/`](./tool/) muestra un botón de acceso directo para cada destino disponible.
 
-## Herramienta
+## Destinos
 
-Duck HTML permite escribir o pegar marcado HTML y ver el resultado al instante. El contenido se muestra en un `iframe` aislado: no se transmite a servidores externos y los scripts permanecen bloqueados durante la previsualización.
+| Proyecto | Tipo de enlace | Destino |
+|---|---|---|
+| Heyduck | Web | [Abrir](https://belentani7.github.io/heyduck/) |
+| Duck Apps | Web | [Abrir](https://belentani7.github.io/duck-apps/) |
+| Duck Omega | Web | [Abrir](https://belentani7.github.io/Duck-Omega/) |
+| Duck Zion Apex | Repositorio | [Abrir](https://github.com/belentani7/duck-zion-apex-public) |
+| Duck Deck | Repositorio | [Abrir](https://github.com/belentani7/Duck-Deck) |
 
-El editor incluye opciones para restablecer el ejemplo inicial y copiar el contenido. También admite la tecla `Tab` para introducir sangría.
+El portal prioriza las webs publicadas. Cuando un proyecto no cuenta con web pública, el botón lleva a su repositorio público.
 
 ## Publicación
 
-El repositorio está preparado para GitHub Pages desde la raíz de la rama `duck`. Tras publicar los cambios, tanto la portada como `https://belentani7.github.io/DuckHTML/tool/` estarán disponibles.
+El repositorio se publica con GitHub Pages desde la raíz de la rama `duck`.
