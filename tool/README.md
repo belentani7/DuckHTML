@@ -1,15 +1,21 @@
-# duck-html
+# tool
 
 Proyecto gestionado por **BELENTANI FORGE 9.0-definitivo**.
 
 ## Estado
 - Categoria: `web`
 - Stack: `static-web`
-- Score: `90/100`
-- LOC: `0` · Archivos: `8`
+- Score: `40/100`
+- LOC: `0` · Archivos: `1`
 
 ## Falta
+- README
+- LICENSE
+- gitignore
+- env-example
 - tests
+- CI
+- git
 
 ## Reglas
 - No commitear secretos.
